@@ -2,7 +2,10 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-4">
-        <h3>Our Address</h3>
+        <h3>
+          Our Address
+          <hr />
+        </h3>
         <p>
           50, Ajilore Street, <br />
           Egan, Igando <br />
@@ -10,7 +13,10 @@
         </p>
       </div>
       <div class="col-sm-4">
-        <h3>Our Address</h3>
+        <h3>
+          Our Address
+          <hr />
+        </h3>
         <p>
           50, Ajilore Street, <br />
           Egan, Igando <br />
@@ -18,7 +24,10 @@
         </p>
       </div>
       <div class="col-sm-4">
-        <h3>Our Address</h3>
+        <h3>
+          Our Address
+          <hr />
+        </h3>
         <p>
           50, Ajilore Street, <br />
           Egan, Igando <br />
@@ -43,8 +52,14 @@ div.container-fluid {
     justify-content: space-between;
     div.col-sm-4 {
       h3 {
-        color: rgb(173, 205, 253);
+        color: rgb(94, 1, 1);
         font-weight: 500;
+        hr {
+          border-width: 2px;
+          width: 20%;
+          color: rgba(31, 30, 30, 0.603);
+          margin-left: 0;
+        }
       }
     }
   }
