@@ -2,7 +2,8 @@
   <div class="container-fluid">
     <Navbar />
     <!-- <Home /> -->
-    <about />
+    <!-- <about /> -->
+    <cart />
     <Footer />
   </div>
 </template>
@@ -11,14 +12,16 @@
 // import Home from "@/components/home/Home.vue";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
-import about from "@/components/about/about.vue";
+// import about from "@/components/about/about.vue";
+import cart from "@/components/cart/cart.vue";
 
 export default {
   components: {
     // Home,
     Navbar,
     Footer,
-    about
+    // about,
+    cart
   },
   data() {
     return {};

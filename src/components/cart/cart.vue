@@ -1,19 +1,21 @@
 <template>
   <div class="container-fluid">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center cart">
       <h1 class="col-sm-5">
-        About Us
+        Cart
       </h1>
     </div>
-    <pngImage />
+    <div class="container">
+      <cart-items />
+    </div>
   </div>
 </template>
 
 <script>
-import pngImage from "./subcomponents/pngImage.vue";
+import cartItems from "./cartItems.vue";
 export default {
   components: {
-    pngImage
+    cartItems
   }
 };
 </script>
@@ -21,7 +23,7 @@ export default {
 <style lang="scss" scoped>
 .container-fluid {
   padding: 0;
-  .row {
+  .cart {
     background-color: rgba(202, 202, 202, 0.466);
     margin: {
       left: 0;
