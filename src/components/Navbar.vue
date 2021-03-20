@@ -13,16 +13,16 @@
       <div class="collapse navbar-collapse" id="nav">
         <ul class="navbar-nav">
           <li class="nav-item mx-sm-3" key="home">
-            <a class="nav-link" href="#">Home</a>
+            <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item mx-sm-3" key="about">
-            <a class="nav-link" href="#">About</a>
+            <router-link to="/about" class="nav-link">About</router-link>
           </li>
           <li class="nav-item mx-sm-3" key="shop">
-            <a class="nav-link" href="#">Shop</a>
+            <router-link to="/shop" class="nav-link">Shop</router-link>
           </li>
           <li class="nav-item mx-sm-3" key="cart">
-            <a class="nav-link" href="#">Cart</a>
+            <router-link to="/cart" class="nav-link">Cart</router-link>
           </li>
           <li class="nav-item mx-sm-3" key="contact">
             <a class="nav-link" href="#">Contact</a>

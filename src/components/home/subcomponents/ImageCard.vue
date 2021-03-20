@@ -1,13 +1,13 @@
 <template>
   <div class="container-fluid">
-    <div class="row justify-content-center align-content-center">
+    <div class="row justify-content-center align-content-center header">
       <h1 class="col-sm-5">
         We Have The Best Wears For Every Occasion Ranging From Shirts, Pants,
         Caps etc.
       </h1>
     </div>
-    <div class="row">
-      <div class="card col-xs-6 col-sm-3">
+    <div class="row image-overlay">
+      <div class="card col-xs-6 col-sm-2">
         <img
           class="card-img-top"
           :src="require('@/assets/Images/six.jpg')"
@@ -19,7 +19,7 @@
           <a href="#" class="btn btn-primary">See Profile</a>
         </div>
       </div>
-      <div class="card col-xs-6 col-sm-3">
+      <div class="card col-xs-6 col-sm-2">
         <img
           class="card-img-top"
           :src="require('@/assets/Images/six.jpg')"
@@ -31,7 +31,7 @@
           <a href="#" class="btn btn-primary">See Profile</a>
         </div>
       </div>
-      <div class="card col-xs-6 col-sm-3">
+      <div class="card col-xs-6 col-sm-2">
         <img
           class="card-img-top"
           :src="require('@/assets/Images/six.jpg')"
@@ -43,7 +43,7 @@
           <a href="#" class="btn btn-primary">See Profile</a>
         </div>
       </div>
-      <div class="card col-xs-6 col-sm-3">
+      <div class="card col-xs-6 col-sm-2">
         <img
           class="card-img-top"
           :src="require('@/assets/Images/six.jpg')"
@@ -81,6 +81,14 @@ export default {};
       margin-top: 30%;
       text-align: center;
       color: rgba(255, 255, 255, 0.849);
+    }
+  }
+  .image-overlay {
+    background: #fff;
+    margin-top: 50px;
+    .col-xs-6 {
+      margin: 50px auto 50px auto;
+      padding: 0;
     }
   }
 }

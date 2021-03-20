@@ -1,27 +1,30 @@
 <template>
   <div class="container-fluid">
-    <Navbar />
-    <!-- <Home /> -->
-    <!-- <about /> -->
-    <cart />
+    <div>
+      <Navbar />
+      <!-- <Home /> -->
+      <!-- <about />
+    <cart /> -->
+    </div>
+    <router-view />
     <Footer />
   </div>
 </template>
 
 <script>
-// import Home from "@/components/home/Home.vue";
+// import Home from "@/views/Home.vue";
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
-// import about from "@/components/about/about.vue";
-import cart from "@/components/cart/cart.vue";
+// import about from "@/views/About.vue";
+// import cart from "@/views/cart.vue";
 
 export default {
   components: {
     // Home,
     Navbar,
-    Footer,
+    Footer
     // about,
-    cart
+    // cart
   },
   data() {
     return {};

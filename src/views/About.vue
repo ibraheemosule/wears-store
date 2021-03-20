@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import pngImage from "./subcomponents/pngImage.vue";
+import pngImage from "@/components/about/subcomponents/pngImage.vue";
 export default {
   components: {
     pngImage

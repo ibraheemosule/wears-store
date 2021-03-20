@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import cartItems from "./cartItems.vue";
+import cartItems from "@/components/cart/cartItems.vue";
 export default {
   components: {
     cartItems
@@ -24,7 +24,7 @@ export default {
 .container-fluid {
   padding: 0;
   .cart {
-    background-color: rgba(202, 202, 202, 0.466);
+    background-color: #cacaca77;
     margin: {
       left: 0;
       right: 0;
